@@ -1,0 +1,288 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="board.css"/>
+		<title>InceptionTacToe, a networked 2-player version of Ultimate Tic Tac Toe</title>
+	</head>
+	<body>
+		<table class="board" id="bigboard">
+			<tbody>
+				<tr>
+					<td>
+						<table class="board" id="b1">
+							<tbody>
+								<tr>
+									<td class="cell" id="b1c1">
+									</td>
+									<td class="cell" id="b1c2">
+									</td>
+									<td class="cell" id="b1c3">
+									</td>
+								</tr>
+								<tr>
+									<td class="cell" id="b1c4">
+									</td>
+									<td class="cell" id="b1c5">
+									</td>
+									<td class="cell" id="b1c6">
+									</td>
+								</tr>
+								<tr>
+									<td class="cell" id="b1c7">
+									</td>
+									<td class="cell" id="b1c8">
+									</td>
+									<td class="cell" id="b1c9">
+									</td>
+								</tr>
+							</tbody>
+						</table>		
+					</td>
+					<td>
+						<table class="board" id="b2">
+							<tbody>
+								<tr>
+									<td class="cell" id="b2c1">
+									</td>
+									<td class="cell" id="b2c2">
+									</td>
+									<td class="cell" id="b2c3">
+									</td>
+								</tr>
+								<tr>
+									<td class="cell" id="b2c4">
+									</td>
+									<td class="cell" id="b2c5">
+									</td>
+									<td class="cell" id="b2c6">
+									</td>
+								</tr>
+								<tr>
+									<td class="cell" id="b2c7">
+									</td>
+									<td class="cell" id="b2c8">
+									</td>
+									<td class="cell" id="b2c9">
+									</td>
+								</tr>
+							</tbody>
+						</table>		
+					</td>
+					<td>
+						<table class="board" id="b3">
+							<tbody>
+								<tr>
+									<td class="cell" id="b3c1">
+									</td>
+									<td class="cell" id="b3c2">
+									</td>
+									<td class="cell" id="b3c3">
+									</td>
+								</tr>
+								<tr>
+									<td class="cell" id="b3c4">
+									</td>
+									<td class="cell" id="b3c5">
+									</td>
+									<td class="cell" id="b3c6">
+									</td>
+								</tr>
+								<tr>
+									<td class="cell" id="b3c7">
+									</td>
+									<td class="cell" id="b3c8">
+									</td>
+									<td class="cell" id="b3c9">
+									</td>
+								</tr>
+							</tbody>
+						</table>		
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<table class="board" id="b4">
+							<tbody>
+								<tr>
+									<td class="cell" id="b4c1">
+									</td>
+									<td class="cell" id="b4c2">
+									</td>
+									<td class="cell" id="b4c3">
+									</td>
+								</tr>
+								<tr>
+									<td class="cell" id="b4c4">
+									</td>
+									<td class="cell" id="b4c5">
+									</td>
+									<td class="cell" id="b4c6">
+									</td>
+								</tr>
+								<tr>
+									<td class="cell" id="b4c7">
+									</td>
+									<td class="cell" id="b4c8">
+									</td>
+									<td class="cell" id="b4c9">
+									</td>
+								</tr>
+							</tbody>
+						</table>		
+					</td>
+					<td>
+						<table class="board" id="b5">
+							<tbody>
+								<tr>
+									<td class="cell" id="b5c1">
+									</td>
+									<td class="cell" id="b5c2">
+									</td>
+									<td class="cell" id="b5c3">
+									</td>
+								</tr>
+								<tr>
+									<td class="cell" id="b5c4">
+									</td>
+									<td class="cell" id="b5c5">
+									</td>
+									<td class="cell" id="b5c6">
+									</td>
+								</tr>
+								<tr>
+									<td class="cell" id="b5c7">
+									</td>
+									<td class="cell" id="b5c8">
+									</td>
+									<td class="cell" id="b5c9">
+									</td>
+								</tr>
+							</tbody>
+						</table>		
+					</td>
+					<td>
+						<table class="board" id="b6">
+							<tbody>
+								<tr>
+									<td class="cell" id="b6c1">
+									</td>
+									<td class="cell" id="b6c2">
+									</td>
+									<td class="cell" id="b6c3">
+									</td>
+								</tr>
+								<tr>
+									<td class="cell" id="b6c4">
+									</td>
+									<td class="cell" id="b6c5">
+									</td>
+									<td class="cell" id="b6c6">
+									</td>
+								</tr>
+								<tr>
+									<td class="cell" id="b6c7">
+									</td>
+									<td class="cell" id="b6c8">
+									</td>
+									<td class="cell" id="b6c9">
+									</td>
+								</tr>
+							</tbody>
+						</table>		
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<table class="board" id="b7">
+							<tbody>
+								<tr>
+									<td class="cell" id="b7c1">
+									</td>
+									<td class="cell" id="b7c2">
+									</td>
+									<td class="cell" id="b7c3">
+									</td>
+								</tr>
+								<tr>
+									<td class="cell" id="b7c4">
+									</td>
+									<td class="cell" id="b7c5">
+									</td>
+									<td class="cell" id="b7c6">
+									</td>
+								</tr>
+								<tr>
+									<td class="cell" id="b7c7">
+									</td>
+									<td class="cell" id="b7c8">
+									</td>
+									<td class="cell" id="b7c9">
+									</td>
+								</tr>
+							</tbody>
+						</table>		
+					</td>
+					<td>
+						<table class="board" id="b8">
+							<tbody>
+								<tr>
+									<td class="cell" id="b8c1">
+									</td>
+									<td class="cell" id="b8c2">
+									</td>
+									<td class="cell" id="b8c3">
+									</td>
+								</tr>
+								<tr>
+									<td class="cell" id="b8c4">
+									</td>
+									<td class="cell" id="b8c5">
+									</td>
+									<td class="cell" id="b8c6">
+									</td>
+								</tr>
+								<tr>
+									<td class="cell" id="b8c7">
+									</td>
+									<td class="cell" id="b8c8">
+									</td>
+									<td class="cell" id="b8c9">
+									</td>
+								</tr>
+							</tbody>
+						</table>		
+					</td>
+					<td>
+						<table class="board" id="b9">
+							<tbody>
+								<tr>
+									<td class="cell" id="b9c1">
+									</td>
+									<td class="cell" id="b9c2">
+									</td>
+									<td class="cell" id="b9c3">
+									</td>
+								</tr>
+								<tr>
+									<td class="cell" id="b9c4">
+									</td>
+									<td class="cell" id="b9c5">
+									</td>
+									<td class="cell" id="b9c6">
+									</td>
+								</tr>
+								<tr>
+									<td class="cell" id="b9c7">
+									</td>
+									<td class="cell" id="b9c8">
+									</td>
+									<td class="cell" id="b9c9">
+									</td>
+								</tr>
+							</tbody>
+						</table>		
+					</td>
+				</tr>
+			</tbody>
+		</table>		
+	</body>
+</html>
